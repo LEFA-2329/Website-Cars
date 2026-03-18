@@ -3,12 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
-<body>
-    <!--Addimng navigation link-->
-    <a href="../index.html">Home</a>
-    <a href="./about_us.html">About</a>
-    <a href="./contact_us.html">Contact Us</a>
+<body style="background-color: palevioletred;">
+    <header>
+        <!--Adding navigation links into the header section-->
+        <a href="../index.html">Home</a>
+        <a href="./about_us.html">About</a>
+        <a href="./contact_us.html">Contact Us</a>
+    </header>
+    <!--Main section-->
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or suggestions, feel free to contact us using the information below.</p>
+        </section>
+        <section>
+            <h2>Contact Details:</h2>
+            <ul>
+                <li>Email: info@demowebsite.com</li>
+                <li>Phone: +27 77 396 3218</li>
+                <li>Address: 123 Learning Street, Polokwane, South Africa</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label><br/>
+                <input type="text" id="name" name="name" placeholder="Enter your name " required><br><br/>
+
+                <label for="email">Email</label>:</label><br/>
+                <input type="email" id="email" name="email" required><br><br/>
+
+                <label for="message">Message:</label><br/>
+                <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br/>
+
+                <input type="submit" value="Send">
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!--Footer-->
+        <p>&copy 2026 Demo Website.All rigths reserved.</p>
+    </footer>
 </body>
 </html>
