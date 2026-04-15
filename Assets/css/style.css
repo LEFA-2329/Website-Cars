@@ -1,0 +1,27 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+}
+body{
+    background:whitesmoke;
+    margin-left:20px;
+    padding:20px;
+    font-family:monospace;
+    font-size:1.1rem;
+    font-weight:200px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+display:flex;
+border:2px solid black;
+align-items:center;
+}
+h2{
+    text-align:center;
+}
